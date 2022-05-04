@@ -1,7 +1,7 @@
 import chai from 'chai';
 import sinon from 'sinon';
 import sinonChai from 'sinon-chai';
-import { getRecord } from './promises';
+import { getRecord } from './record';
 
 chai.use(sinonChai);
 

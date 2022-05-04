@@ -6,7 +6,6 @@
   "author": "Simon Beaulieu <simon.beaulieu@pleo.io>",
   "license": "MIT",
   "scripts": {
-    "start": "TS_NODE_FILES=true ts-node src/promises.ts",
     "test": "TS_NODE_FILES=true mocha --timeout 5000 \"src/**/*.spec.ts\"",
     "test:watch": "yarn test --watch --watch-files \"src/**/*.ts\""
   },
