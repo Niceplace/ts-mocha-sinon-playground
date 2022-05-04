@@ -30,6 +30,7 @@ describe('Fake timers', () => {
 });
 
 describe('Real timers', () => {
+  // This should eventually fail
   new Array(200).fill(true).forEach(() => {
     it('Should keep original behavior of dates when not activated', () => {
       // Act & Assert
